@@ -31,7 +31,18 @@ Process Based and Thread Based multitasking
      - New Thread won't be created 
      - It will be an ordinary method call 
      - it is not recomended to override start method 
-     -  if the super.start() is called then it will create another thread .
+     -  if the super.start() is called then it will create another thread .  
+  9. Thread Life cycle 
+      new >> Ready >> Running >> Dead
+      simple basic life cycle of thread
+  10. If you restart a already started thread then you will get IllegalThreadStateException 
+  
+      
+      
+  
+     
+  
+  
     
     
      
