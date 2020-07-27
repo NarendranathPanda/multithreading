@@ -50,7 +50,12 @@ Process Based and Thread Based multitasking
         ^
         |
      MyRunnable (Only Implement Run method)
-           
+  12. Implements Runnable vs extend Thread class         
+      - In case of extending Thread class we will loose the multiple inheritance . Only Single Inheritance is possible in java   
+  13. 8 constructors are there in Thread Class 
+  14. Thread.currentThread().getName()
+      Thread.currentThread().setName()
+      
   
   
       
