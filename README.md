@@ -37,6 +37,22 @@ Process Based and Thread Based multitasking
       simple basic life cycle of thread
   10. If you restart a already started thread then you will get IllegalThreadStateException 
   
+  11. Defining a Thread by Implementing Runnable Interface 
+     Runnable
+        ^
+        |
+     Thread
+        ^
+        |
+     MyThread   
+     
+     Runnable
+        ^
+        |
+     MyRunnable (Only Implement Run method)
+           
+  
+  
       
       
   
