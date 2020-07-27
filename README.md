@@ -27,6 +27,11 @@ Process Based and Thread Based multitasking
   7. If the MyThread class doesn't override the run method then what will happen 
      - Thread class run method will be called and there will be no output. 
      -  If you don't overide the run method then the feature is misutilised 
+  8. Overide the start method 
+     - New Thread won't be created 
+     - It will be an ordinary method call 
+     - it is not recomended to override start method 
+     -  if the super.start() is called then it will create another thread .
     
     
      
