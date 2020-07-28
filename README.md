@@ -55,6 +55,20 @@ Process Based and Thread Based multitasking
   13. 8 constructors are there in Thread Class 
   14. Thread.currentThread().getName()
       Thread.currentThread().setName()
+  15. Thread Priorities 
+        1. Every Thread has a Thread Priorities 
+        2. Default Priority set by JVM 
+        3. Values ranges from ```1 to 10 ```
+        4. MIN priorities 1  // Thread.MIN_PRIORITY
+        5. MAX Priorities 10  // Thread.MAX_PRIORITY
+        6. NORMAL Priorities 5 // Thread.NORAML_PRIORITY // default for Main , Other inherited from Parent thread
+        7. Thread scheduler decides the processor allocation by the the thread priority 
+        8. Incase two thread of same priority , Then the execution order is not predictable , it depends on TS
+        9. Thread class has final method to set and get Priority (final methods )
+        10. If the the priority is not in the range then you wil get IllegalArgumentException 
+        
+         
+      
       
   
   
