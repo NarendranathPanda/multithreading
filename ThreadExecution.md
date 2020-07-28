@@ -38,8 +38,13 @@
 - ```public static void sleep(long ms,int ns)```
 - Throws InterruptedException
 
-
-
+# How a thread can interrupt other thread 
+- A thread can intrrupt a sleeping thread or waiting  thread by using intrupt method of Thread class
+- ``` public void interrupt()```
+- If the target thread is not in sleeping or waiting thread, then interrupt() is called on it . 
+   - No exception will be raised 
+   - Interruption keeps waiting , if the thread goes to wait or sleep then it will interrupt 
+   - If the target thread never enter into waiting or sleeping state then the interrupt call gets wasted 
 
 
 
