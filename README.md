@@ -66,8 +66,10 @@ Process Based and Thread Based multitasking
         8. Incase two thread of same priority , Then the execution order is not predictable , it depends on TS
         9. Thread class has final method to set and get Priority (final methods )
         10. If the the priority is not in the range then you wil get IllegalArgumentException 
-        11. By setting thread priority the thread execution can be predictable 
-        12. Thread Priority should be Supported by OS
+        11. By setting thread priority the thread execution can be predictable subject to Thread Priority should be Supported by OS
+        
+        
+        
         
          
       
